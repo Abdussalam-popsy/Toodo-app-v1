@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="./app.js" defer></script>
+  <title>To-Do List</title>
+</head>
+<body>
+  <section class="todo">
+    <h2>Popsy To-do List</h2>
+    <div class="input">
+      <input type="text" class="input-field" id="todoInput" placeholder="Add a new task" />
+      <button class="btn">Add</button>
+    </div> 
+    <ul class="scroll">
+      <li id="todoList"></li>
+    </ul>
+    <div>
+      <hr class="counter" />
+      <div class="counter-container">
+        <p><span>0</span> items total</p>
+        <button id="deleteButton">Delete All</button>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer">
+      <p class="made-by">Made with lots of ☕️</p>
+      <p class="author">By Abdussalam</p>
+    </div>
+  </footer>
+</body>
+</html>
